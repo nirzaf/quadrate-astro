@@ -159,6 +159,19 @@ Click the button below to start deploying your project on Vercel:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmearashadowfax%2FScrewFast)
 
+### GitHub Actions Workflow for Deployment
+
+We have added a GitHub Actions workflow to automate the build and deployment process of the Astro project. This workflow is triggered when a branch is merged into the main branch or when code is pushed to the main branch.
+
+The workflow performs the following steps:
+1. Checks out the repository.
+2. Sets up Node.js.
+3. Installs dependencies.
+4. Builds the Astro project.
+5. Deploys the static website to the `.vercel/output/static` route using the Vercel CLI.
+
+To view and customize the workflow, navigate to the `.github/workflows/deploy.yml` file in the repository.
+
 ## Project Structure
 
 ScrewFast organizes modular components, content, and layouts to streamline development and content management.
