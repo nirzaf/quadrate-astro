@@ -46,26 +46,12 @@ export default defineConfig({
         root: {
           label: "English",
           lang: "en",
-        },
-        de: { label: "Deutsch", lang: "de" },
-        es: { label: "Español", lang: "es" },
-        fa: { label: "Persian", lang: "fa", dir: "rtl" },
-        fr: { label: "Français", lang: "fr" },
-        ja: { label: "日本語", lang: "ja" },
-        "zh-cn": { label: "简体中文", lang: "zh-CN" },
+        }
       },
       // https://starlight.astro.build/guides/sidebar/
       sidebar: [
         {
           label: "Quick Start Guides",
-          translations: {
-            de: "Schnellstartanleitungen",
-            es: "Guías de Inicio Rápido",
-            fa: "راهنمای شروع سریع",
-            fr: "Guides de Démarrage Rapide",
-            ja: "クイックスタートガイド",
-            "zh-cn": "快速入门指南",
-          },
           autogenerate: { directory: "guides" },
         },
         {
