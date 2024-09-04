@@ -6,6 +6,7 @@ const navBarLinks = [
   { name: "Blog", url: "/blog" },
   { name: "Contact", url: "/contact" },
 ];
+
 // An array of links for footer
 const footerLinks = [
   {
@@ -26,6 +27,7 @@ const footerLinks = [
     ],
   },
 ];
+
 // An object of links for social icons
 const socialLinks = {
   facebook: "https://www.facebook.com/",
