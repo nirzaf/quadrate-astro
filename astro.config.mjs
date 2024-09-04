@@ -9,7 +9,6 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   // https://docs.astro.build/en/guides/images/#authorizing-remote-images
   site: "https://nirzaf.github.io/quadrate-astro",
-  base: "quadrate-astro",
   image: {
     domains: ["images.unsplash.com"],
   },
