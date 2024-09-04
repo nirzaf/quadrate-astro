@@ -46,3 +46,12 @@
     ></path></svg
   >
 </button>
+
+<script>
+  // Set light theme as default
+  if (!localStorage.getItem('hs-theme')) {
+    localStorage.setItem('hs-theme', 'light');
+    document.documentElement.classList.remove('dark');
+  }
+</script>
+
