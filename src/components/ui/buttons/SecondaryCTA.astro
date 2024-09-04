@@ -1,31 +1,57 @@
 ---
 // Destructure the properties from Astro.props
-const { title, url } = Astro.props;
+const {title, url} = Astro.props;
 
 // Define TypeScript interface for the properties
 interface Props {
-  title?: string;
-  url?: string;
+    title?: string;
+    url?: string;
 }
 // Define CSS classes for the hyperlink button
 const baseClasses =
-  "inline-flex items-center justify-center gap-x-2 rounded-lg px-4 py-3 text-center text-sm font-medium text-neutral-600 shadow-sm outline-none ring-zinc-500 focus-visible:ring transition duration-300";
+    "inline-flex items-center justify-center gap-x-2 rounded-lg px-4 py-3 text-center text-sm font-medium text-neutral-600 shadow-sm outline-none ring-zinc-500 focus-visible:ring transition duration-300";
 const borderClasses = "border border-neutral-200";
 const bgColorClasses = "bg-neutral-300";
 const hoverClasses =
-  "hover:bg-neutral-400/50 hover:text-neutral-600 active:text-neutral-700";
+    "hover:bg-neutral-400/50 hover:text-neutral-600 active:text-neutral-700";
 const disableClasses = "disabled:pointer-events-none disabled:opacity-50";
 const fontSizeClasses = "2xl:text-base";
 const ringClasses = "ring-zinc-500";
+const animationClasses = "relative overflow-hidden group";
 
 const darkClasses =
-  "dark:border-neutral-700 dark:bg-zinc-700 dark:text-neutral-300 dark:ring-zinc-200 dark:hover:bg-zinc-600 dark:focus:outline-none";
+    "dark:border-neutral-700 dark:bg-zinc-700 dark:text-neutral-300 dark:ring-zinc-200 dark:hover:bg-zinc-600 dark:focus:outline-none";
 ---
 
 <!-- Styled hyperlink -->
-<a
-  class={`${baseClasses} ${borderClasses} ${bgColorClasses} ${hoverClasses} ${disableClasses} ${fontSizeClasses} ${ringClasses} ${darkClasses}`}
-  href={url}
->
-  {title}
+<a class={`${baseClasses} ${borderClasses} ${bgColorClasses} ${hoverClasses} ${disableClasses} ${fontSizeClasses} ${ringClasses} ${darkClasses} ${animationClasses} animate-highlight`}
+   href={url}>
+    {title}
 </a>
+
+
+<style>
+    .animate-highlight::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, #3b82f6 50%, transparent 50%),
+        linear-gradient(90deg, transparent 50%, #3b82f6 50%),
+        linear-gradient(0deg, #3b82f6 50%, transparent 50%),
+        linear-gradient(0deg, transparent 50%, #3b82f6 50%);
+        background-repeat: no-repeat;
+        background-size: 200% 3px, 200% 3px, 3px 200%, 3px 200%;
+        background-position: 0% 0%, 100% 100%, 0% 100%, 100% 0%;
+        animation: highlight 3s linear infinite;
+    }
+
+    @keyframes highlight {
+        100% {
+            background-position: 100% 0%, 0% 100%, 0% 0%, 100% 100%;
+        }
+    }
+</style>
+
