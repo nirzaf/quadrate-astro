@@ -17,14 +17,22 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
       - name: Install dependencies
         run: npm install
 
       - name: Build the project
         run: npm run build
 
-      - name: Copy build files to the deployment directory
-        run: cp -r .vercel/output/static/* ./public/
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: .vercel/output/static # Specify the correct folder containing the static files
 
   deploy:
     needs: build
@@ -37,5 +45,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          branch: gh-pages # Deploy to the gh-pages branch
-          folder: public    # Specify the folder containing the static files
+          artifact_name: github-pages
