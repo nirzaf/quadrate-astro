@@ -4,6 +4,7 @@ import Meta from "@components/Meta.astro";
 import Navbar from "@components/sections/navbar&footer/Navbar.astro";
 import FooterSection from "@components/sections/navbar&footer/FooterSection.astro";
 import { SITE } from "@data/constants";
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 
 // Setting expected props
 const { title = SITE.title, meta, structuredData, lang = "en" } = Astro.props;
@@ -42,6 +43,7 @@ We set the language of the page to English and add classes for scrollbar and scr
     <script>
       import "@scripts/lenisSmoothScroll.js";
     </script>
+    <SpeedInsights />
   </head>
   <body
     class="bg-neutral-200 selection:bg-yellow-400 selection:text-neutral-700 dark:bg-neutral-800"
