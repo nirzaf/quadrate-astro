@@ -10,7 +10,7 @@ import TestimonialsSection from "@components/sections/testimonials/TestimonialsS
 import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
-import heroImage from "@images/hero-image.avif";
+import heroImage from "@images/hero-image.png";
 import faqs from "@data/faqs.json";
 import features from "@data/features.json";
 import pricing from "@data/pricing.json";
@@ -50,49 +50,50 @@ const avatarSrcs: Array<string> = [
     />
 
     <ClientsSection
-            title="Trusted by Industry Leaders"
-            subTitle="Experience the reliability chosen by industry giants."
+            title="Our Partners"
+            subTitle="Quadrate Tech Solutions: Leveraging partnerships to drive innovation and deliver cutting-edge software solutions."
     />
 
-    <FeaturesGeneral
-            title="Meeting Industry Demands"
-            subTitle="At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."
-            src={featureImage}
-            alt="ScrewFast products in floating boxes"
-            features={features}
-    />
+    <!--<FeaturesGeneral-->
+    <!--        title="Meeting Industry Pioneers"-->
+    <!--        subTitle="At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."-->
+    <!--        src={featureImage}-->
+    <!--        alt="ScrewFast products in floating boxes"-->
+    <!--        features={features}-->
+    <!--/>-->
 
     <FeaturesNavs
-            title=`Customize <span class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>'s offerings to perfectly suit your hardware and construction needs.`
+            title=`Empower your business with <span style="color:darkblue">Quadrate Tech Solutions</span>`
             tabs={[
                 {
-                    heading: "Cutting-Edge Tools",
+                    heading: "World-Class Software",
                     content:
-                        "Empower your projects with ScrewFast's cutting-edge tools. Experience enhanced efficiency in construction management with our sophisticated automated solutions.",
-                    svg: "tools",
+                        "We build world-class software, whether it's a mobile app, web-based app, or enterprise software. Our team of expert coders and engineers takes pride in creating the next big software solution for your business.",
+                    svg: "code",
                     src: tools,
-                    alt: "Yellow and black heavy equipment on brown grass field",
+                    alt: "Computer screen showing code",
                     first: true,
                 },
                 {
-                    heading: "Intuitive Dashboards",
+                    heading: "Comprehensive Services",
                     content:
-                        "Navigate with ease using ScrewFast's intuitive dashboards. Set up and oversee your projects seamlessly, with user-friendly interfaces designed for quick and effective workflow management.",
-                    svg: "dashboard",
+                        "From Search Engine Optimization to Social Media Marketing, we offer a wide range of services to boost your online presence. Our expertise includes Design & Development, Pay Per Click advertising, Conversion Optimization, and Reputation Management.",
+                    svg: "services",
                     src: dashboard,
-                    alt: "A screenshot or graphic representation of the intuitive dashboard",
+                    alt: "Icons representing various digital services",
                     second: true,
                 },
                 {
-                    heading: "Robust Features",
+                    heading: "ERP Solutions",
                     content:
-                        "Minimize complexity, maximize productivity. ScrewFast's robust features are engineered to streamline your construction process, delivering results that stand out for their excellence.",
-                    svg: "house",
+                        "Choose from our range of ERP packages, including QTS-ULTIMATE PRO, QTS-ULTIMATE ERP, and QTS-PREMIUM ERP. These solutions offer features like Sales and POS, Inventory Management, HR Management, and comprehensive reporting tools to streamline your business operations.",
+                    svg: "erp",
                     src: construction,
-                    alt: "Gray metal building frame near tower crane during daytime",
+                    alt: "Dashboard showing various ERP modules",
                 },
             ]}
     />
+
 
     <TestimonialsSection
             title="Fast-Track Your Projects"
