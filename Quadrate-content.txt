@@ -1,6 +1,51 @@
-﻿Quadrate Tech Solutions: Content Extraction
+﻿Quadrate Tech Solutions: Innovating Through Technology
 
-Here's the content extracted from the provided HTML, categorized for clarity:
+Introduction
+
+Founded in 2009 and headquartered in Kandy, Central, Sri Lanka, Quadrate Tech Solutions has established itself as a prominent player in the software development industry. The company specializes in creating custom software solutions, including mobile apps, web-based applications, and enterprise software systems. With a mission to enhance business operations through innovative technology and high-quality software solutions, Quadrate Tech Solutions has consistently delivered projects that align with clients' strategic goals.
+
+Services Offered
+
+Quadrate Tech Solutions offers a comprehensive range of services designed to meet the diverse needs of its clients:
+
+- **Digital Marketing**: The company provides SEO, social media marketing, and conversion optimization services to help businesses improve their online presence and reach their target audience effectively.
+- **E-commerce Solutions**: Quadrate Tech Solutions develops robust e-commerce platforms that enable businesses to sell their products and services online seamlessly.
+- **Mobile Application Development**: The team creates user-friendly mobile applications for both Android and iOS platforms, ensuring a smooth and engaging user experience.
+- **Web Application Development**: They design and develop web-based applications that are functional, efficient, and scalable, catering to various business requirements.
+
+## Quadrate Tech: Your Affordable Microsoft 365 Partner
+
+**Quadrate Tech** is a leading provider of affordable Microsoft 365 solutions, specializing in Microsoft Exchange and the Office suite. As a Microsoft Gold Partner, we offer competitive pricing without compromising on quality or support.
+
+**Why Choose Quadrate Tech for Microsoft 365?**
+
+* **Cost-Effective Solutions:** Benefit from our competitive pricing for Microsoft 365, including Microsoft Exchange and the Office suite, without sacrificing essential features or functionality.
+* **Tailored Packages:** We offer customizable packages to meet your specific needs and budget, ensuring you only pay for the services you require.
+* **Expert Guidance:** Our team of Microsoft experts will help you select the most suitable Microsoft 365 plan based on your business requirements and goals.
+* **Seamless Migration:** Our experienced professionals will guide you through a smooth migration to Microsoft 365, ensuring minimal downtime and disruption to your operations.
+* **Ongoing Support:** Enjoy ongoing technical support and maintenance services to keep your Microsoft 365 environment running smoothly.
+
+**Key Microsoft 365 Services from Quadrate Tech:**
+
+* **Microsoft Exchange:**
+    * Email, calendar, and contact management
+    * Secure messaging and collaboration via teams
+    * Collaboration tools like sharepoint and onedrive
+    * Advanced security features for email and data protection 
+* **Office Suite:**
+    * Word, Excel, PowerPoint, Outlook, and more
+    * Productivity tools
+    * Cloud-based access and collaboration
+
+**Experience the Benefits of Microsoft 365 with Quadrate Tech**
+
+By partnering with Quadrate Tech, you can leverage the power of Microsoft 365 at an affordable price. Our expertise, commitment to customer satisfaction, and focus on cost-effective solutions make us the ideal choice for businesses seeking to optimize their IT infrastructure.
+
+**Contact Quadrate Tech today** to request a personalized quote and learn more about our affordable Microsoft 365 solutions.
+
+The team at Quadrate Tech Solutions consists of skilled professionals dedicated to delivering high-quality projects. Their expertise spans across various domains, ensuring that each project is handled with the utmost care and precision. The company's commitment to innovation and excellence has earned them a reputation for reliability and effectiveness in the software development industry.
+
+Quadrate Tech Solutions continues to push the boundaries of technology, providing businesses with the tools they need to succeed in a digital world. Their focus on quality, innovation, and client satisfaction sets them apart as a leader in the field of software development.
 
 1. Header:
 
@@ -81,48 +126,6 @@ Image: https://ik.imagekit.io/quadrate/assets/img/Layer-13.png
 REPUTATION MANAGEMENT: Your reputation is everything. Our team of experts can help protect and enhance your reputation online for tangible, long-term results.
 
 Image: https://ik.imagekit.io/quadrate/assets/img/values-5.png
-
-5. Pricing Section:
-
-Headline: QTS ULTIMATE ERP Pricing
-
-Sub-headline: Choose a suitable package for you
-
-QTS Accounting Packages:
-
-QTS-ULTIMATE PRO:
-
-Price: Start for Free
-
-Image: https://ik.imagekit.io/quadrate/assets/img/pricing-free.png
-
-Features (using icons, text extracted): Sales and POS, Purchases, Inventory and Stocks, Invoice & Quotation, Expenses, Transfer, Returns, Payment Gateway, Inventory, HR Management, Reports, Access Level
-
-Call to action: Sign Up Free - https://go.zoho.com/1EH
-
-QTS-ULTIMATE ERP:
-
-Featured
-
-Price: Start for Free
-
-Image: https://ik.imagekit.io/quadrate/assets/img/pricing-starter.png
-
-Features: Same as QTS-ULTIMATE PRO
-
-Call to action: Sign Up Free - https://go.zoho.com/1EH
-
-QTS-PREMIUM ERP:
-
-Featured
-
-Price: Start for Free
-
-Image: https://ik.imagekit.io/quadrate/assets/img/pricing-business.png
-
-Features: Same as QTS-ULTIMATE PRO
-
-Call to action: Sign Up Free - https://go.zoho.com/1EH
 
 Customer Relations Manager Application Packages:
 

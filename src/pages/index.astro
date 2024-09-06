@@ -48,12 +48,7 @@ const avatarSrcs: Array<string> = [
             src={heroImage}
             alt="Stack of ScrewFast product boxes containing assorted hardware tools"
     />
-
-    <ClientsSection
-            title="Our Partners"
-            subTitle="Quadrate Tech Solutions: Leveraging partnerships to drive innovation and deliver cutting-edge software solutions."
-    />
-
+    
     <!--<FeaturesGeneral-->
     <!--        title="Meeting Industry Pioneers"-->
     <!--        subTitle="At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."-->
@@ -93,7 +88,8 @@ const avatarSrcs: Array<string> = [
                 },
             ]}
     />
-
+    
+    <PricingSection pricing={pricing}/>
 
     <TestimonialsSection
             title="Empower Your Business with Quadrate Tech Solutions"
@@ -130,8 +126,11 @@ const avatarSrcs: Array<string> = [
                 },
             ]}
     />
-
-    <PricingSection pricing={pricing}/>
+    
+    <ClientsSection
+            title="Our Partners"
+            subTitle="Quadrate Tech Solutions: Leveraging partnerships to drive innovation and deliver cutting-edge software solutions."
+    />
 
     <FAQ title="Frequently<br />asked questions" faqs={faqs}/>
 
