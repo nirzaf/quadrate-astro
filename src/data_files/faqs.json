@@ -1,29 +1,29 @@
 {
-  "subTitle": "Ask us anything about our brand and products, and get factual responses.",
+  "subTitle": "Ask us anything about our services and solutions, and get factual responses.",
   "faqs": [
     {
-      "question": "What types of tools are included in the Starter Kit?",
-      "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
+      "question": "What types of software solutions does Quadrate Tech Solutions offer?",
+      "answer": "Quadrate Tech Solutions offers a wide range of software solutions including mobile apps, web-based applications, and enterprise software. We specialize in creating high-class, enterprise-level applications tailored to grow your business."
     },
     {
-      "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
-      "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
+      "question": "Can you explain the different ERP packages available?",
+      "answer": "We offer three main ERP packages: QTS-ULTIMATE PRO, QTS-ULTIMATE ERP, and QTS-PREMIUM ERP. All packages include features such as Sales and POS, Purchases, Inventory and Stocks, Invoice & Quotation, Expenses, Transfer, Returns, Payment Gateway, HR Management, Reports, and Access Level. You can start for free with any of these packages."
     },
     {
-      "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
-      "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
+      "question": "What Customer Relations Manager (CRM) application packages do you provide?",
+      "answer": "We offer three CRM packages: STANDARD, PROFESSIONAL, and ENTERPRISE. Each package builds upon the previous one, with ENTERPRISE offering the most advanced features like multi-user portals, AI predictions, data encryption, and multi-language support."
     },
     {
-      "question": "What kind of customer support can I expect?",
-      "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
+      "question": "What kind of support can I expect for your software solutions?",
+      "answer": "We provide dedicated support through multiple channels. You can reach us via email at support@quadrate.lk for any assistance. Our office hours are Monday to Friday, 9:00 AM - 05:00 PM."
     },
     {
-      "question": "How current are the online resources and tutorials?",
-      "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
+      "question": "How current are your software solutions and services?",
+      "answer": "We constantly strive to offer modern solutions for growing businesses. Our team of coders, engineers, and co-founders ensures that we create nothing but the best software, incorporating innovative ideas and modern technology."
     },
     {
-      "question": "Does ScrewFast offer services for large-scale construction projects?",
-      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
+      "question": "Does Quadrate Tech Solutions offer services for large-scale business needs?",
+      "answer": "Yes, we cater to businesses of all sizes. Our solutions are scalable and can be customized for large-scale business needs. We offer comprehensive services including SEO, design & development, social media marketing, PPC, conversion optimization, and reputation management."
     }
   ]
 }

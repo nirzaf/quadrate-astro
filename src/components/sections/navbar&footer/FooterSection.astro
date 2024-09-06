@@ -14,7 +14,7 @@ const strings = Astro.currentLocale === "fr" ? frStrings : enStrings;
 // Define the variables that will be used in this component
 const sectionThreeTitle: string = Astro.currentLocale === "fr" ? "Rester à jour" : "Stay up to date";
 const sectionThreeContent: string = Astro.currentLocale === "fr" ? "Restez informé des derniers outils et des offres exclusives." :
-  "Stay updated with the latest tools and exclusive deals.";
+  "Stay updated with the exclusive deals.";
 const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafted by";
 ---
 
@@ -44,7 +44,7 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
                     {link.name}
                   </a>
                   {section.section === "Company" && index === 2 ? (
-                    <span class="ms-1 inline rounded-lg bg-orange-500 px-2 py-1 text-xs font-bold text-neutral-50">
+                    <span class="ms-1 inline rounded-lg bg-orange-600 px-2 py-1 text-xs font-bold text-neutral-50">
                       We're hiring!
                     </span>
                   ) : null}
@@ -77,9 +77,9 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
           © <span id="current-year"></span> {SITE.title}. {crafted}
           <a
             class="rounded-lg font-medium underline underline-offset-2 outline-none ring-zinc-500 transition duration-300 hover:text-neutral-700 hover:decoration-dashed focus:outline-none focus-visible:ring dark:ring-zinc-200 dark:hover:text-neutral-300"
-            href="https://sobstvennoai.dev"
+            href="https://quadrate.lk"
             target="_blank"
-            rel="noopener noreferrer">sobstvennoAI</a
+            rel="noopener noreferrer">QTS</a
           >.
         </p>
       </div>

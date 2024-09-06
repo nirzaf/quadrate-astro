@@ -1,0 +1,215 @@
+﻿Quadrate Tech Solutions: Content Extraction
+
+Here's the content extracted from the provided HTML, categorized for clarity:
+
+1. Header:
+
+Company Name: Quadrate Tech Solutions
+
+Logo: https://ik.imagekit.io/quadrate/assets/img/tr:w-200/QTS-Logo-%20Favicon.png?updatedAt=1718024117217
+
+Navigation Menu:
+
+Home
+
+Packages
+
+About
+
+Contact
+
+2. Hero Section:
+
+Headline: We offer modern solutions for growing your business
+
+Subheadline: We offer high-class enterprise-level applications for your business, It can be a mobile app, web-based app, or enterprise software. We will build it!
+
+Image: https://ik.imagekit.io/quadrate/assets/img/hero-img.png (depicting "World-class software")
+
+3. About Section:
+
+Title: Who We Are
+
+Headline: We build your business through engaging websites
+
+Paragraph:
+
+We at Quadrate believe in creating nothing but the best software, and take pride in that. Our quality comes from the bloodline of Coders, Engineers, and Co-founders who understand every single step of creating the next big software for you.
+
+Mission:
+
+We strive to offer our customers affordable and higher-quality services through innovative ideas and modern technology.
+
+Vision:
+
+To be a leading software solution provider to our valuable clients across Sri Lanka and the world.
+
+Image: https://ik.imagekit.io/quadrate/tr:w-800/assets/img/about.jpg
+
+4. What We Do Section:
+
+Headline: What We Do
+
+Subheadline: We are Awesome but Don't take our words for it
+
+Paragraph:
+
+You might have a website, but it isn’t doing your business much good if it isn’t being picked up by the search engines. To make sure customers find your site online, we can take your online presence to the next level.
+
+Services:
+
+SEARCH ENGINE OPTIMIZATION: Through careful keyword research and white hat practices, we can help you achieve high rankings in the major search engines.
+
+Image: https://ik.imagekit.io/quadrate/assets/img/values-2.png
+
+DESIGN & DEVELOPMENT: With millions of websites on the internet, you want to be sure your website stands out, represents you well, and most importantly, helps your organization grow.
+
+Image: https://ik.imagekit.io/quadrate/assets/img/values-1.png
+
+SOCIAL MEDIA MARKETING: Social media marketing is a critical element in staying connected with your audience. Working independently of, or side-by-side with you, we help keep your social community engaged.
+
+Image: https://ik.imagekit.io/quadrate/assets/img/values-3.png
+
+PAY PER CLICK – PPC: While SEO offers long-term growth, sometimes you need an immediate boost. Thrive’s PPC campaign ensures that the money you spend is put to the very best possible use.
+
+Image: https://ik.imagekit.io/quadrate/assets/img/values-07.jpg
+
+CONVERSION OPTIMIZATION: Turn more site visitors into customers! Our experts utilize the latest Conversion Optimization techniques to help increase the percentage of passive website visitors into active users.
+
+Image: https://ik.imagekit.io/quadrate/assets/img/Layer-13.png
+
+REPUTATION MANAGEMENT: Your reputation is everything. Our team of experts can help protect and enhance your reputation online for tangible, long-term results.
+
+Image: https://ik.imagekit.io/quadrate/assets/img/values-5.png
+
+5. Pricing Section:
+
+Headline: QTS ULTIMATE ERP Pricing
+
+Sub-headline: Choose a suitable package for you
+
+QTS Accounting Packages:
+
+QTS-ULTIMATE PRO:
+
+Price: Start for Free
+
+Image: https://ik.imagekit.io/quadrate/assets/img/pricing-free.png
+
+Features (using icons, text extracted): Sales and POS, Purchases, Inventory and Stocks, Invoice & Quotation, Expenses, Transfer, Returns, Payment Gateway, Inventory, HR Management, Reports, Access Level
+
+Call to action: Sign Up Free - https://go.zoho.com/1EH
+
+QTS-ULTIMATE ERP:
+
+Featured
+
+Price: Start for Free
+
+Image: https://ik.imagekit.io/quadrate/assets/img/pricing-starter.png
+
+Features: Same as QTS-ULTIMATE PRO
+
+Call to action: Sign Up Free - https://go.zoho.com/1EH
+
+QTS-PREMIUM ERP:
+
+Featured
+
+Price: Start for Free
+
+Image: https://ik.imagekit.io/quadrate/assets/img/pricing-business.png
+
+Features: Same as QTS-ULTIMATE PRO
+
+Call to action: Sign Up Free - https://go.zoho.com/1EH
+
+Customer Relations Manager Application Packages:
+
+STANDARD:
+
+Image: https://ik.imagekit.io/quadrate/assets/img/pricing-free.png
+
+Features: Email Marketing, Customer Segmentation, Workflow Automation, Custom Reports & Dashboards, Sales Forecasting, Social Media Integration, Role-based Security, 10 Customizable Modules, Up to 100,000 Records, Basic Field Customization
+
+Call to action: Buy Now - https://go.zoho.com/Sl3
+
+PROFESSIONAL:
+
+Featured
+
+Image: https://ik.imagekit.io/quadrate/assets/img/pricing-starter.png
+
+Features: Everything in Standard, Email and Voice Integration, Unlimited Custom Reports & Dashboards, Inventory Management, Blueprint - Process Automation, Scoring Rules, Web-to-Case Forms, 10 Custom Modules, Unlimited Records, Advanced Field Customization
+
+Call to action: Buy Now - https://go.zoho.com/Sl3
+
+ENTERPRISE:
+
+Image: https://ik.imagekit.io/quadrate/assets/img/pricing-business.png
+
+Features: Everything in Professional, Multi-user Portals, Advanced Customization, AI Predictions & Recommendations, Auto-Responder, Custom Functions, API & SDKs, Data Encryption, Multi-language Support, 20 Custom Modules
+
+Call to action: Buy Now - https://go.zoho.com/Sl3
+
+6. Clients Section:
+
+Headline: Our Clients
+
+Subheadline: Our Official Business partners & Affiliates
+
+Client Logos:
+
+Studytomy: https://ik.imagekit.io/studytomy/Primary-logo-compressed.jpg?updatedAt=1717610316164
+
+Zoho: https://ik.imagekit.io/quadrate/assets/img/clients/zoho.jpeg
+
+Grommunio: https://ik.imagekit.io/quadrate/assets/grommunio%20Logo%20-%20transparent.png?updatedAt=1719435693334
+
+Belimo: https://ik.imagekit.io/quadrate/assets/img/clients/client-2.png
+
+Barakat: https://ik.imagekit.io/quadrate/assets/img/clients/sd.jpeg
+
+Lilly: https://ik.imagekit.io/quadrate/assets/img/clients/client-4.png
+
+7. Contact Section:
+
+Headline: Book Your Free Consultation
+
+Address:
+
+Quadrate Tech Solutions Pvt Ltd,
+
+19/2/9, Market Complex,
+
+Matale Road,
+
+Akurana,
+
+Kandy: 20850.
+
+Phone: 0814242615
+
+Email Addresses:
+
+info@quadrate.lk
+
+sales@quadrate.lk
+
+support@quadrate.lk
+
+hire@quadrate.lk
+
+Open Hours: Monday - Friday, 9:00 AM - 05:00 PM
+
+Booking Embed: Embedded Zoho Bookings form (https://quadratetechsolutions.zohobookings.com/portal-embed#/quadratetechsolutions)
+
+8. Footer:
+
+No specific content provided in the HTML snippet.
+
+9. Additional Scripts:
+
+HubSpot tracking code included.
+
+JavaScript files for Bootstrap, animations, form validation, image galleries, etc.
