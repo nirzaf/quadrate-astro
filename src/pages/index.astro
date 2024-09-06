@@ -10,14 +10,14 @@ import TestimonialsSection from "@components/sections/testimonials/TestimonialsS
 import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
-import heroImage from "@images/hero-image.avif";
+import heroImage from "@images/hero-image.png";
 import faqs from "@data/faqs.json";
 import features from "@data/features.json";
 import pricing from "@data/pricing.json";
 import featureImage from "@images/features-image.avif";
-import construction from "@images/construction-image.avif";
-import tools from "@images/automated-tools.avif";
-import dashboard from "@images/dashboard-image.avif";
+import construction from "@images/lms.png";
+import tools from "@images/automated-tools.png";
+import dashboard from "@images/ecommerce.png";
 
 const avatarSrcs: Array<string> = [
     "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
@@ -50,83 +50,83 @@ const avatarSrcs: Array<string> = [
     />
 
     <ClientsSection
-            title="Trusted by Industry Leaders"
-            subTitle="Experience the reliability chosen by industry giants."
+            title="Our Partners"
+            subTitle="Quadrate Tech Solutions: Leveraging partnerships to drive innovation and deliver cutting-edge software solutions."
     />
 
-    <FeaturesGeneral
-            title="Meeting Industry Demands"
-            subTitle="At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."
-            src={featureImage}
-            alt="ScrewFast products in floating boxes"
-            features={features}
-    />
+    <!--<FeaturesGeneral-->
+    <!--        title="Meeting Industry Pioneers"-->
+    <!--        subTitle="At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."-->
+    <!--        src={featureImage}-->
+    <!--        alt="ScrewFast products in floating boxes"-->
+    <!--        features={features}-->
+    <!--/>-->
 
     <FeaturesNavs
-            title=`Customize <span class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>'s offerings to perfectly suit your hardware and construction needs.`
+            title=`Empower your business with <span style="color:darkblue">Quadrate Tech Solutions</span>`
             tabs={[
                 {
-                    heading: "Cutting-Edge Tools",
+                    heading: "World-Class Software",
                     content:
-                        "Empower your projects with ScrewFast's cutting-edge tools. Experience enhanced efficiency in construction management with our sophisticated automated solutions.",
-                    svg: "tools",
+                        "We build world-class software, whether it's a mobile app, web-based app, or enterprise software. Our team of expert coders and engineers takes pride in creating the next big software solution for your business.",
+                    svg: "code",
                     src: tools,
-                    alt: "Yellow and black heavy equipment on brown grass field",
+                    alt: "Computer screen showing code",
                     first: true,
                 },
                 {
-                    heading: "Intuitive Dashboards",
+                    heading: "Comprehensive Services",
                     content:
-                        "Navigate with ease using ScrewFast's intuitive dashboards. Set up and oversee your projects seamlessly, with user-friendly interfaces designed for quick and effective workflow management.",
-                    svg: "dashboard",
+                        "From Search Engine Optimization to Social Media Marketing, we offer a wide range of services to boost your online presence. Our expertise includes Design & Development, Pay Per Click advertising, Conversion Optimization, and Reputation Management.",
+                    svg: "services",
                     src: dashboard,
-                    alt: "A screenshot or graphic representation of the intuitive dashboard",
+                    alt: "Icons representing various digital services",
                     second: true,
                 },
                 {
-                    heading: "Robust Features",
+                    heading: "Custom Microsoft 365 Solutions",
                     content:
-                        "Minimize complexity, maximize productivity. ScrewFast's robust features are engineered to streamline your construction process, delivering results that stand out for their excellence.",
-                    svg: "house",
+                        "We can provide custom tailored Microsoft 365 Service Solutions for Lower Prices. Our expert team specializes in crafting personalized solutions that leverage the full potential of Microsoft 365, ensuring optimal functionality and cost-effectiveness for your business needs.",
+                    svg: "erp",
                     src: construction,
-                    alt: "Gray metal building frame near tower crane during daytime",
+                    alt: "Dashboard showing various ERP modules",
                 },
             ]}
     />
 
+
     <TestimonialsSection
-            title="Fast-Track Your Projects"
-            subTitle="At ScrewFast, we ensure a swift start with instant account setup. Experience the speed of construction redefined."
-            ;
+            title="Empower Your Business with Quadrate Tech Solutions"
+            subTitle="We offer modern solutions for growing your business, from mobile apps to enterprise software."
             testimonials={[
                 {
                     content:
-                        "ScrewFast dramatically boosted our project efficiency. Setup was instant, and their rapid response times are phenomenal. Truly a game-changer in hardware and construction support!",
-                    author: "Samantha Ruiz",
-                    role: "Chief Operating Officer | ConstructIt Inc.",
+                        "Quadrate Tech Solutions dramatically boosted our work process efficiency. Their world-class software & comprehensive services have truly been a game-changer for our business!",
+                    author: "Aashikkhan",
+                    role: "Co-Founder | STE Auditing",
                     avatarSrc:
-                        "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=1453&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
+                        "https://ik.imagekit.io/quadrate/assets/img/aashikhan.jpg?updatedAt=1725627306243",
                 },
             ]}
             statistics={[
                 {
-                    count: "70k+",
+                    count: "100+",
                     description:
-                        "customers equipped — from DIY to major construction firms",
+                        "satisfied clients across various industries",
                 },
                 {
-                    count: "35%",
+                    count: "78%",
                     description:
-                        "uptick in project efficiency with ScrewFast tools and services",
+                        "increase in business efficiency reported by our clients",
                 },
                 {
-                    count: "15.3%",
+                    count: "24/7",
                     description:
-                        "reduction in maintenance costs reported by long-term clients",
+                        "customer support for all our services",
                 },
                 {
-                    count: "2x",
-                    description: "quicker assembly using innovative fastening solutions",
+                    count: "3x",
+                    description: "faster project delivery with our custom solutions",
                 },
             ]}
     />

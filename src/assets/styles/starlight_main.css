@@ -17,6 +17,7 @@
     --overlay-blue: hsla(var(--blue-hsl), .2);
     --border: hsla(var(--border-neutral), .4);
     --border-neutral: 0, 0%, 25.1%;
+    --midnight-blue: #07091c;
 }
 
 /* Light mode colors. */
