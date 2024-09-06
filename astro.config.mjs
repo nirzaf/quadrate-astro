@@ -5,6 +5,8 @@ import sitemap from "@astrojs/sitemap";
 import compressor from "astro-compressor";
 import starlight from "@astrojs/starlight";
 
+import vercel from '@astrojs/vercel/serverless';
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://nirzaf.github.io/quadrate-astro",
@@ -84,10 +86,12 @@ export default defineConfig({
       brotli: true,
     }),
   ],
-  output: "static",
+  output: 'server',
+  adapter: vercel({
+    webAnalytics: { enabled: true }
+  }),
   experimental: {
     clientPrerender: true,
     directRenderScript: true,
   },
-  adapter: vercelStatic(),
 });
