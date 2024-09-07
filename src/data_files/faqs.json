@@ -1,29 +1,29 @@
 {
-  "subTitle": "Ask us anything about our brand and products, and get factual responses.",
+  "subTitle": "Discover how Quadrate Tech Solutions can innovate your business through technology.",
   "faqs": [
     {
-      "question": "What types of tools are included in the Starter Kit?",
-      "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
+      "question": "What are the main services offered by Quadrate Tech Solutions?",
+      "answer": "Quadrate Tech Solutions offers a comprehensive range of services including custom software development, digital marketing, e-commerce solutions, mobile application development, and web application development. We specialize in creating tailored solutions that align with our clients' strategic goals."
     },
     {
-      "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
-      "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
+      "question": "Can you tell me more about Quadrate Tech's Microsoft 365 solutions?",
+      "answer": "As a Microsoft Gold Partner, we provide affordable Microsoft 365 solutions, including Microsoft Exchange and the Office suite. We offer competitive pricing, tailored packages, expert guidance, seamless migration, and ongoing support. Our Microsoft 365 services cover email management, collaboration tools, and productivity applications."
     },
     {
-      "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
-      "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
+      "question": "What sets Quadrate Tech Solutions apart in the software development industry?",
+      "answer": "Quadrate Tech Solutions stands out due to our commitment to innovation, quality, and client satisfaction. Our team of skilled professionals has expertise across various domains, ensuring each project is handled with precision. We focus on delivering high-quality, cost-effective solutions that push the boundaries of technology."
     },
     {
-      "question": "What kind of customer support can I expect?",
-      "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
+      "question": "How does Quadrate Tech Solutions approach digital marketing?",
+      "answer": "Our digital marketing services include SEO, social media marketing, and conversion optimization. We help businesses improve their online presence and effectively reach their target audience, enhancing their digital footprint and marketing strategies."
     },
     {
-      "question": "How current are the online resources and tutorials?",
-      "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
+      "question": "What types of mobile applications does Quadrate Tech Solutions develop?",
+      "answer": "We create user-friendly mobile applications for both Android and iOS platforms. Our focus is on ensuring a smooth and engaging user experience while meeting the specific needs of each client's business and target audience."
     },
     {
-      "question": "Does ScrewFast offer services for large-scale construction projects?",
-      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
+      "question": "How can businesses benefit from Quadrate Tech's e-commerce solutions?",
+      "answer": "Our e-commerce solutions enable businesses to sell their products and services online seamlessly. We develop robust, scalable platforms that enhance the online shopping experience for customers while providing businesses with efficient tools to manage their online stores."
     }
   ]
 }

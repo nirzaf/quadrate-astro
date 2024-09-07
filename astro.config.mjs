@@ -29,7 +29,7 @@ export default defineConfig({
       },
     }),
     starlight({
-      title: "ScrewFast Docs",
+      title: "Quadrate Tech Solutions Docs",
       defaultLocale: "root",
       sidebar: [
         {

@@ -48,12 +48,7 @@ const avatarSrcs: Array<string> = [
             src={heroImage}
             alt="Stack of ScrewFast product boxes containing assorted hardware tools"
     />
-
-    <ClientsSection
-            title="Our Partners"
-            subTitle="Quadrate Tech Solutions: Leveraging partnerships to drive innovation and deliver cutting-edge software solutions."
-    />
-
+    
     <!--<FeaturesGeneral-->
     <!--        title="Meeting Industry Pioneers"-->
     <!--        subTitle="At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."-->
@@ -93,7 +88,8 @@ const avatarSrcs: Array<string> = [
                 },
             ]}
     />
-
+    
+    <PricingSection pricing={pricing}/>
 
     <TestimonialsSection
             title="Empower Your Business with Quadrate Tech Solutions"
@@ -130,14 +126,17 @@ const avatarSrcs: Array<string> = [
                 },
             ]}
     />
-
-    <PricingSection pricing={pricing}/>
+    
+    <ClientsSection
+            title="Our Partners"
+            subTitle="Quadrate Tech Solutions: Leveraging partnerships to drive innovation and deliver cutting-edge software solutions."
+    />
 
     <FAQ title="Frequently<br />asked questions" faqs={faqs}/>
 
     <HeroSectionAlt
-            title="Let's Build Together"
-            subTitle="ScrewFast is an open-source template, meticulously crafted with Astro, Tailwind CSS, and Preline UI frameworks."
-            url="https://github.com/mearashadowfax/ScrewFast"
+            title="Lets Discuss Your Requirements"
+            subTitle="We offer high-class enterprise-level applications for your business, It can be a mobile app, web-based app, or enterprise software. We will build it!"
+            url="https://ik.imagekit.io/quadrate/assets/img/hero-img.png"
     />
 </MainLayout>

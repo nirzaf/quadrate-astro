@@ -13,8 +13,8 @@ const footerLinks = [
     section: "Ecosystem",
     links: [
       { name: "Documentation", url: "/welcome-to-docs/" },
-      { name: "Tools & Equipment", url: "/products" },
-      { name: "Construction Services", url: "/services" },
+      { name: "Our Products", url: "/products" },
+      { name: "SaaS Services", url: "/services" },
     ],
   },
   {
@@ -23,14 +23,13 @@ const footerLinks = [
       { name: "About us", url: "#" },
       { name: "Blog", url: "/blog" },
       { name: "Careers", url: "#" },
-      { name: "Customers", url: "#" },
     ],
   },
 ];
 
 // An object of links for social icons
 const socialLinks = {
-  facebook: "https://www.facebook.com/",
+  facebook: "https://www.facebook.com/quadrate.lk/",
   x: "https://twitter.com/",
   github: "https://github.com/mearashadowfax/ScrewFast",
   google: "https://www.google.com/",
