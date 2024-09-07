@@ -1,7 +1,6 @@
 // An array of links for navigation bar
 const navBarLinks = [
   { name: "Home", url: "/" },
-  { name: "Products", url: "/products" },
   { name: "Services", url: "/services" },
   { name: "Blog", url: "/blog" },
   { name: "Contact", url: "/contact" },
@@ -13,7 +12,6 @@ const footerLinks = [
     section: "Ecosystem",
     links: [
       { name: "Documentation", url: "/welcome-to-docs/" },
-      { name: "Our Products", url: "/products" },
       { name: "SaaS Services", url: "/services" },
     ],
   },
@@ -30,10 +28,11 @@ const footerLinks = [
 // An object of links for social icons
 const socialLinks = {
   facebook: "https://www.facebook.com/quadrate.lk/",
-  x: "https://twitter.com/",
-  github: "https://github.com/mearashadowfax/ScrewFast",
-  google: "https://www.google.com/",
-  slack: "https://slack.com/",
+  x: "#",
+  github: "https://github.com/nirzaf",
+  google: "#",
+  slack: "#",
+  instagram: "#",
 };
 
 export default {
