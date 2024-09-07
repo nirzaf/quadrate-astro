@@ -5,11 +5,12 @@ import sitemap from "@astrojs/sitemap";
 import compressor from "astro-compressor";
 import starlight from "@astrojs/starlight";
 
-import vercel from '@astrojs/vercel/serverless';
-
 // https://astro.build/config
 export default defineConfig({
   site: "https://nirzaf.github.io/quadrate-astro",
+  image: {
+    domains: ["ik.imagekit.io"],
+  },
   i18n: {
     defaultLocale: "en",
     locales: ["en", "fr"],
@@ -53,7 +54,7 @@ export default defineConfig({
         },
       ],
       social: {
-        github: "https://github.com/mearashadowfax/ScrewFast",
+        github: "https://github.com/nirzaf",
       },
       disable404Route: true,
       customCss: ["./src/assets/styles/starlight.css"],
@@ -86,10 +87,8 @@ export default defineConfig({
       brotli: true,
     }),
   ],
-  output: 'server',
-  adapter: vercel({
-    webAnalytics: { enabled: true }
-  }),
+  output: "static",
+  adapter: vercelStatic(),
   experimental: {
     clientPrerender: true,
     directRenderScript: true,

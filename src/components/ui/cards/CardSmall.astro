@@ -6,9 +6,7 @@ import type { CollectionEntry } from "astro:content";
 
 const { product } = Astro.props;
 
-interface Props {
-  product: CollectionEntry<"products">;
-}
+
 // Define classes to be used with the Image component
 const imageClass =
   "absolute inset-0 h-full w-full object-cover object-center transition duration-[600ms] ease-[cubic-bezier(0.45,0,0.55,1)] group-hover:scale-110";
