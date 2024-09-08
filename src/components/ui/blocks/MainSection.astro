@@ -17,10 +17,8 @@ interface Props {
 
 <!-- Root section of the component -->
 <section
-  class="mx-auto mt-10 max-w-[85rem] px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-14 2xl:max-w-full bg-no-repeat"
-  style={
-      desktopBgSvg ? `background-image: url(${desktopBgSvg}); background-position:right center; background-size:auto 100%` : ""
-  }
+  class="mx-auto mt-10 max-w-[85rem] px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-14 2xl:max-w-full bg-no-repeat hide-on-mobile"
+  style={desktopBgSvg ? `background-image: url(${desktopBgSvg}); background-position:right center; background-size:auto 100%` : ""}
   aria-label="Main section"
   role="region"
   aria-roledescription="main section"
@@ -40,11 +38,34 @@ interface Props {
     </p>
     <!-- Conditional rendering of PrimaryCTA component if 'btnExists' property is truthy -->
     {
-      btnExists ? (
+      btnExists && (
         <div class="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
           <PrimaryCTA title={btnTitle} url={btnURL} />
         </div>
-      ) : null
+      )
     }
   </div>
 </section>
+
+<style>
+  @media (max-width: 767px) {
+    .hide-on-mobile {
+      display: none;
+    }
+  }
+</style>
+
+<script>
+  function updateVisibility() {
+    const sections = document.querySelectorAll('.hide-on-mobile');
+    const isMobile = window.innerWidth <= 767;
+    sections.forEach(section => {
+      if (section instanceof HTMLElement) {
+        section.style.display = isMobile ? 'none' : '';
+      }
+    });
+  }
+
+  window.addEventListener('resize', updateVisibility);
+  document.addEventListener('DOMContentLoaded', updateVisibility);
+</script>
