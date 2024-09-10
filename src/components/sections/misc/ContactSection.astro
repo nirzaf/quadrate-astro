@@ -6,13 +6,19 @@ import EmailContactInput from "@components/ui/forms/input/EmailContactInput.astr
 import PhoneInput from "@components/ui/forms/input/PhoneInput.astro";
 import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
 import Icon from "@components/ui/icons/Icon.astro";
+import SecondaryCTA from "../../ui/buttons/SecondaryCTA.astro";
+import PrimaryCTA from "../../ui/buttons/PrimaryCTA.astro";
 
 // Define the variables that will be used in this component
-const title: string = "Contact us";
-const subTitle: string =
-  "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.";
+const title: string = "Contact Quadrate Tech Solutions";
+const subTitle: string = "We'll discuss your needs and develop a customized software solution that helps you achieve your goals.";
 const formTitle: string = "Fill in the form below";
 const formSubTitle: string = "We'll get back to you in 1-2 business days.";
+
+const primaryBtn = {
+  title: "Submit",
+  primaryBtnURL: "#"
+};
 ---
 
 <!-- Contact Us -->
@@ -66,26 +72,32 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
               {formSubTitle}
             </p>
           </div>
+
+          <!-- Add the Submit button here -->
+          <div class="mt-3 text-center">
+            {primaryBtn &&
+                <PrimaryCTA title={primaryBtn.title} url={primaryBtn.primaryBtnURL} />
+            }
+          </div>
         </form>
       </div>
-
       <!--ContactIconBlocks are used to display different methods of contacting, including visiting office, email, browsing knowledgebase, and FAQ.-->
       <div class="divide-y divide-neutral-300 dark:divide-neutral-700">
         <ContactIconBlock
-          heading="Knowledgebase"
-          content="Browse through all of our knowledgebase articles."
+          heading="Our Services"
+          content="Explore our comprehensive range of services including SEO, Design and Development, Social Media Marketing, PPC, Conversion Optimization, and more."
           isLinkVisible={true}
-          linkTitle="Visit guides & tutorials"
-          linkURL="#"
+          linkTitle="View Our Services"
+          linkURL="/services"
           isArrowVisible={true}
           ><Icon name="question" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="FAQ"
-          content="Explore our FAQ for quick, clear answers to common queries."
+          heading="ERP Solutions"
+          content="Discover our cutting-edge QTS ULTIMATE ERP packages designed to streamline your business operations."
           isLinkVisible={true}
-          linkTitle="Visit FAQ"
+          linkTitle="Explore ERP Solutions"
           linkURL="#"
           isArrowVisible={true}
           ><Icon name="chatBubble" />
@@ -93,21 +105,20 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
 
         <ContactIconBlock
           heading="Visit our office"
-          content="UK ScrewFast"
+          content="Quadrate Tech Solutions Pvt Ltd"
           isAddressVisible={true}
-          addressContent="72 Union Terrace, E10 4PE London"
+          addressContent="19/2/9, Market Complex, Matale Road, Akurana, Kandy: 20850"
           ><Icon name="mapPin" />
         </ContactIconBlock>
 
         <ContactIconBlock
           heading="Contact us by email"
-          content="Prefer the written word? Drop us an email at"
+          content="For inquiries, reach out to us at"
           isLinkVisible={true}
-          linkTitle="support@screwfast.uk"
-          linkURL="#"
+          linkTitle="info@quadrate.lk"
+          linkURL="mailto:info@quadrate.lk"
           ><Icon name="envelopeOpen" />
         </ContactIconBlock>
       </div>
     </div>
-  </div>
-</section>
+  </div></section>

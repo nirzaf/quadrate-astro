@@ -9,9 +9,9 @@ import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
 import Icon from "@components/ui/icons/Icon.astro";
 
 // Define the variables that will be used in this component
-const title: string = "Contactez-nous";
+const title: string = "Contactez Quadrate Tech Solutions";
 const subTitle: string =
-  "Vous avez des questions ou souhaitez discuter d'un projet ? Contactez-nous et laissons-nous élaborer la solution parfaite avec nos outils et services.";
+  "Votre partenaire pour des solutions logicielles axées sur la croissance. Nous sommes là pour répondre à vos questions et discuter de votre projet.";
 const formTitle: string = "Remplissez le formulaire ci-dessous";
 const formSubTitle: string =
   "Nous vous répondrons dans un délai de 1 à 2 jours ouvrables.";
@@ -58,7 +58,7 @@ const formSubTitle: string =
             <PhoneInput id="hs-phone-number" />
             <TextAreaInput
               id="hs-about-contacts"
-              label="Détails"
+              label="Détails du projet"
               name="hs-about-contacts"
             />
           </div>
@@ -71,42 +71,42 @@ const formSubTitle: string =
         </form>
       </div>
 
-      <!--ContactIconBlocks are used to display different methods of contacting, including visiting office, email, browsing knowledgebase, and FAQ.-->
+      <!--ContactIconBlocks are used to display different methods of contacting, including visiting office, email, browsing services, and booking.-->
       <div class="divide-y divide-neutral-300 dark:divide-neutral-700">
         <ContactIconBlock
-          heading="Base de connaissances"
-          content="Parcourez tous nos articles de base de connaissances."
+          heading="Nos Services"
+          content="Découvrez notre gamme complète de services, y compris le développement web, le SEO, et les solutions ERP."
           isLinkVisible={true}
-          linkTitle="Visiter les guides et tutoriels"
+          linkTitle="Explorer nos services"
           linkURL="#"
           isArrowVisible={true}
-          ><Icon name="question" />
+          ><Icon name="cog" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="FAQ"
-          content="Explorez notre FAQ pour des réponses rapides et claires aux questions courantes."
+          heading="Réserver une consultation"
+          content="Planifiez une consultation gratuite pour discuter de vos besoins en matière de logiciels."
           isLinkVisible={true}
-          linkTitle="Visiter la FAQ"
+          linkTitle="Réserver maintenant"
           linkURL="#"
           isArrowVisible={true}
-          ><Icon name="chatBubble" />
+          ><Icon name="calendar" />
         </ContactIconBlock>
 
         <ContactIconBlock
           heading="Visitez notre bureau"
-          content="ScrewFast UK"
+          content="Quadrate Tech Solutions Pvt Ltd"
           isAddressVisible={true}
-          addressContent="72 Union Terrace, E10 4PE London"
+          addressContent="19/2/9, Market Complex, Matale Road, Akurana, Kandy: 20850"
           ><Icon name="mapPin" />
         </ContactIconBlock>
 
         <ContactIconBlock
           heading="Contactez-nous par e-mail"
-          content="Préférez-vous le texte écrit ? Envoyez-nous un e-mail à"
+          content="Pour toute question ou demande, n'hésitez pas à nous envoyer un e-mail à"
           isLinkVisible={true}
-          linkTitle="support@screwfast.uk"
-          linkURL="#"
+          linkTitle="info@quadrate.lk"
+          linkURL="mailto:info@quadrate.lk"
           ><Icon name="envelopeOpen" />
         </ContactIconBlock>
       </div>
