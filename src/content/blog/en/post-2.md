@@ -1,20 +1,20 @@
 ---
-title: "Enhancing Safety and Workmanship with ScrewFast Construction Services"
-description: "Quality construction services for lasting results"
-author: "Brad"
-authorImage: "@/images/blog/brad.avif"
+title: "Integrating ElasticSearch with .NET Web API: A Comprehensive Guide"
+description: "Learn how to set up ElasticSearch locally and integrate it with a .NET Web API for powerful search capabilities"
+author: "Fazrin"
+authorImage: "@/images/blog/avatar.png"
 authorImageAlt: "Avatar Description"
 pubDate: 2024-02-10
-cardImage: "@/images/blog/post-2.avif"
+cardImage: "@/images/blog/elastic-search.webp"
 cardImageAlt: "Man in black sweatpants using DEWALT circular saw and cutting a wood plank"
 readTime: 5
-tags: ["safety", "craftsmanship", "management" ]
+tags: ["elasticsearch", "dotnet", "webapi", "docker"]
 contents: [
-        "When it comes to construction, safety and quality workmanship are non-negotiable. At ScrewFast, we're proud to offer a range of construction services that prioritize both, ensuring your projects are built to last.",
-        "Our team of skilled craftsmen brings precision and expertise to every job, from minor installations to large-scale structural work. With top-quality tools and materials from our extensive inventory, we guarantee the highest standards of safety and craftsmanship on every project.",
-        "But our commitment to excellence doesn't end there. We also provide thorough project management services to keep your build on track and within budget. From workflow coordination to stakeholder communication, ScrewFast handles the complexities so you can focus on your vision.",
-        "What sets ScrewFast apart is our dedication to ongoing support. We don't just finish the job and walk away—we're here for the long haul. Our maintenance services ensure that your construction remains in optimal condition, providing peace of mind for years to come.",
-        "For larger enterprise clients, we offer custom solutions tailored to your unique challenges. By understanding your specific needs, we engineer strategies aimed at maximizing efficiency and driving your business forward.",
-        "With ScrewFast construction services, you can trust that your projects are in good hands. Experience the difference today and see why so many clients choose ScrewFast for their construction needs."
+        "Elastic Search offers several benefits, including high-performance search, real-time search, full-text search, faceting, geolocation search, analytics capabilities, ease of use, scalability, reliability, and open-source nature. These features make it a popular choice for search and analytics applications, as it can handle large datasets, provide fast and accurate results, and be easily integrated into different systems.",
+        "Setting up Elastic Search Locally using Docker Compose involves creating a docker-compose.yml file that defines two services: Elasticsearch and Kibana. The Elasticsearch service runs a single node of Elastic search version 8.15.0, while the Kibana service provides a web interface for visualizing and interacting with your data.",
+        "Integrating Elastic Search with a .NET Web API requires installing the Elastic.Clients.Elasticsearch NuGet package and creating necessary models and services. The IElasticService interface defines methods for interacting with Elastic search, such as creating indexes, adding or updating users, and retrieving data.",
+        "The ElasticService class implements the IElasticService interface, providing the actual implementation for interacting with Elastic search. It uses the ElasticsearchClient to perform operations like indexing, searching, and deleting documents.",
+        "Configuring the .NET Web API to use Elastic search involves adding Elastic search settings to the appsettings.json file and registering the ElasticService with the dependency injection container in the Program.cs file.",
+        "Creating an Elastic Search Controller allows for exposing endpoints to perform CRUD operations on users stored in Elastic search. The UsersController defines methods for creating indexes, adding users, updating users, retrieving users, and deleting users."
 ]
 ---
