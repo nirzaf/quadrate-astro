@@ -6,7 +6,7 @@ authorImage: "@/images/blog/avatar.png"
 authorImageAlt: "Avatar Description"
 pubDate: 2024-02-10
 cardImage: "@/images/blog/elastic-search.webp"
-cardImageAlt: "Man in black sweatpants using DEWALT circular saw and cutting a wood plank"
+cardImageAlt: "The image you provided features the logo of the .NET framework. The logo consists of a stylized letter “E” with three horizontal stripes in yellow, black, and teal colors on the left side. Next to it is a purple square with the text “.NET” in white letters"
 readTime: 5
 tags: ["elasticsearch", "dotnet", "webapi", "docker"]
 contents: [
