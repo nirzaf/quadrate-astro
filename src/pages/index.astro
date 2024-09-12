@@ -4,17 +4,13 @@ import MainLayout from "@/layouts/MainLayout.astro";
 import HeroSection from "@components/sections/landing/HeroSection.astro";
 import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
 import ClientsSection from "@components/sections/landing/ClientsSection.astro";
-import FeaturesGeneral from "@components/sections/features/FeaturesGeneral.astro";
 import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
 import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
 import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
-import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
 import heroImage from "@images/hero-image.png";
 import faqs from "@data/faqs.json";
-import features from "@data/features.json";
 import pricing from "@data/pricing.json";
-import featureImage from "@images/features-image.avif";
 import construction from "@images/lms.png";
 import tools from "@images/automated-tools.png";
 import dashboard from "@images/ecommerce.png";
@@ -48,14 +44,6 @@ const avatarSrcs: Array<string> = [
             src={heroImage}
             alt="Stack of ScrewFast product boxes containing assorted hardware tools"
     />
-    
-    <!--<FeaturesGeneral-->
-    <!--        title="Meeting Industry Pioneers"-->
-    <!--        subTitle="At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."-->
-    <!--        src={featureImage}-->
-    <!--        alt="ScrewFast products in floating boxes"-->
-    <!--        features={features}-->
-    <!--/>-->
 
     <FeaturesNavs
             title=`Empower your business with <span style="color:darkblue">Quadrate Tech Solutions</span>`

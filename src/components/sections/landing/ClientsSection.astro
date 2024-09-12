@@ -21,24 +21,39 @@ interface Props {
         </h2>
         {
             subTitle && (
-                        <p class="text-pretty leading-tight text-neutral-600 dark:text-neutral-400">
-                            {subTitle}
-                        </p>
-            )
+                <p class="text-pretty leading-tight text-neutral-600 dark:text-neutral-400">
+                    {subTitle}
+                </p>)
         }
     </div>
-    <div
-            class="flex flex-col items-center justify-center gap-y-2 sm:flex-row sm:gap-x-12 sm:gap-y-0 lg:gap-x-24"
-    >
+    <div class="flex flex-col items-center justify-center gap-y-6 sm:flex-row sm:gap-x-12 sm:gap-y-0 lg:gap-x-24">
         <!-- Clients Group SVGs -->
         <!-- First -->
-        <img src="https://ik.imagekit.io/quadrate/assets/img/clients/zoho.png?updatedAt=1725572927006" alt="Clients" class="max-w-[400px]"/>
+        <img src="https://ik.imagekit.io/quadrate/assets/img/clients/zoho.png?updatedAt=1725572927006" alt="Clients"
+             class="client-image"/>
         <!-- Second -->
         <img src="https://ik.imagekit.io/quadrate/assets/grommunio%20Logo%20-%20transparent.png?updatedAt=1719435693334"
-             alt="Clients" class="max-w-[400px]"/>
+             alt="Clients" class="client-image"/>
         <!-- Third -->
         <img src="https://ik.imagekit.io/quadrate/assets/img/clients/client-1.png?updatedAt=1725572926790"
-             alt="Clients" class="max-w-[400px]"/>
+             alt="Clients" class="client-image"/>
         <!-- Fourth -->
     </div>
 </section>
+
+<style>
+    .client-image {
+        max-width: 90%;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+
+    @media (min-width: 640px) {
+        .client-image {
+            max-width: 400px;
+        }
+    }
+</style>
+
