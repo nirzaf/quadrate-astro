@@ -26,7 +26,7 @@ interface Props {
 ---
 
 <section
-  class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
+  class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full features-navs-section"
 >
   <div class="relative p-6 md:p-16">
     <div
@@ -91,6 +91,16 @@ interface Props {
 </section>
 <!--Import the necessary Tabs plugin-->
 <!--https://preline.co/plugins/html/tabs.html-->
+<style>
+  @media (max-width: 1280px) {
+    .features-navs-section {
+      display: none;
+    }
+  }
+</style>
+
 <script>
   import "@preline/tabs/index.js";
 </script>
+
+
