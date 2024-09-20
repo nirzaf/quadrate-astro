@@ -119,9 +119,7 @@ This guide will provide you with the necessary steps to set up and familiarize y
 
 Start by installing the project dependencies. Open your terminal, navigate to the project's root directory, and execute:
 
-
 npm install
-
 
 This command will install all the necessary dependencies defined in the `package.json` file.
 
@@ -233,11 +231,13 @@ const subTitle: string =
 For collections of content like testimonials or statistics, edit the corresponding array of objects:
 
 ```typescript
+
 // An array of testimonials
 const testimonials: Testimonial[] = [...];
 
 // An array of statistics
 const statistics: StatProps[] = [...];
+
 ```
 
 Modify the content within these arrays to reflect your data.
