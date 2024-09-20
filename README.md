@@ -45,7 +45,7 @@
 * [Contributing](#contributing)
 * [License](#license)
 
-## Why Choose ScrewFast?
+## Why Choose Quadrate Tech Solutions?
 
 * **Efficient Architecture:** Deploy faster with a template that's simple to set up and navigate.
 * **Optimized for Small Projects:** Perfect for crisp, professional web personas without excess complexity.
@@ -59,7 +59,7 @@
 * **GSAP Integration:** Impress with professional and polished animations.
 * **Markdown Content Collections:** Organize and manage your content seamlessly.
 * **Starlight Documentation:** A sleek, user-friendly, full-featured documentation theme.
-* **Internationalization (i18n):** Integrates Astro’s internationalization features.
+* **Internationalization (i18n):** Integrates Astro's internationalization features.
 * **SEO and Responsiveness:** Ensure your site is discoverable and accessible on any device.
 
 ## What's New
@@ -95,7 +95,7 @@
   * **Note:** Developers have the option to use other community integrations like [astro-icons](https://github.com/natemoo-re/astro-icon). However, the author decided to create a custom icon set component for managing custom icons.
 
 * [x] **Internationalization (i18n) Features**:
-  * Integrates [Astro’s internationalization (i18n) features](https://docs.astro.build/en/guides/internationalization/).
+  * Integrates [Astro's internationalization (i18n) features](https://docs.astro.build/en/guides/internationalization/).
   * Additionally, a custom LanguagePicker component has been developed to facilitate language selection.
   * Developers can access the monolingual version directly from [`monolingual-site` branch](https://github.com/mearashadowfax/ScrewFast/tree/monolingual-site).
 
@@ -119,9 +119,9 @@ This guide will provide you with the necessary steps to set up and familiarize y
 
 Start by installing the project dependencies. Open your terminal, navigate to the project's root directory, and execute:
 
-```bash
+
 npm install
-```
+
 
 This command will install all the necessary dependencies defined in the `package.json` file.
 
@@ -141,9 +141,9 @@ For detailed help with Astro CLI commands, visit [Astro's documentation](https:/
 
 Before deployment, you need to create a production build:
 
-```bash
+
 npm run build
-```
+
 
 This creates a `dist/` directory with your built site (configurable via [outDir in Astro](https://docs.astro.build/en/reference/configuration-reference/#outdir)).
 
@@ -165,7 +165,6 @@ The workflow performs the following steps:
 5. Deploys the static website to the `.vercel/output/static` route using the Vercel CLI.
 
 To view and customize the workflow, navigate to the `.github/workflows/deploy.yml` file in the repository.
-
 ## Project Structure
 
 ScrewFast organizes modular components, content, and layouts to streamline development and content management.
