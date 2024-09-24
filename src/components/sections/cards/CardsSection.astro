@@ -10,18 +10,17 @@ const maxPosts = blogPosts.slice(0, 3); // Limit to 3 blog posts
   <!-- Grid -->
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
     {maxPosts.map((blogEntry) => (
-      <!-- Card -->
       <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
         <div class="h-52 flex flex-col justify-center items-center bg-blue-600 rounded-t-xl">
           <img
             class="w-full h-full object-cover rounded-t-xl"
-            src={blogEntry.data.cardImage.src} // Use the card image from blog entry
+            src={blogEntry.data.cardImage.src}
             alt={blogEntry.data.cardImageAlt || "Blog Card Image"}
           />
         </div>
         <div class="p-4 md:p-6">
           <span class="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
-            {blogEntry.data.category}
+            {blogEntry.data.tags && blogEntry.data.tags[0]}
           </span>
           <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
             {blogEntry.data.title}
@@ -36,7 +35,6 @@ const maxPosts = blogPosts.slice(0, 3); // Limit to 3 blog posts
           </a>
         </div>
       </div>
-      <!-- End Card -->
     ))}
   </div>
   <!-- End Grid -->
