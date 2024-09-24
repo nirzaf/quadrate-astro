@@ -216,3 +216,8 @@ No specific content provided in the HTML snippet.
 HubSpot tracking code included.
 
 JavaScript files for Bootstrap, animations, form validation, image galleries, etc.
+
+10. Custom CSS:
+Custom CSS styles for the website.
+11. Google Fonts:
+Google Fonts used for the website.
