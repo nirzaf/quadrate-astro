@@ -1,4 +1,5 @@
 ﻿---
+// Import necessary modules and types
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 
@@ -10,7 +11,8 @@ const maxPosts = blogPosts.slice(0, 3); // Limit to 3 blog posts
   <!-- Grid -->
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
     {maxPosts.map((blogEntry) => (
-      <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+      <div
+        class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
         <div class="h-52 flex flex-col justify-center items-center bg-blue-600 rounded-t-xl">
           <img
             class="w-full h-full object-cover rounded-t-xl"
@@ -28,14 +30,27 @@ const maxPosts = blogPosts.slice(0, 3); // Limit to 3 blog posts
           <p class="mt-3 text-gray-500 dark:text-neutral-500">
             {blogEntry.data.description}
           </p>
+          <!-- Author Information -->
+          <div class="flex items-center mt-4">
+            <img
+              class="w-10 h-10 rounded-full"
+              src={blogEntry.data.authorImage.src}
+              alt={blogEntry.data.author || "Author Image"}
+            />
+            <div class="ml-3">
+              <p class="text-sm font-medium text-gray-800 dark:text-neutral-300">
+                {blogEntry.data.author}
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
+        <div
+          class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
           <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800" href={`/blog/${blogEntry.slug}`}>
             View Blog
           </a>
         </div>
       </div>
     ))}
-  </div>
-  <!-- End Grid -->
+  </div>  <!-- End Grid -->
 </div>
