@@ -7,7 +7,7 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://quadrate-astro.onrender.com",
+  site: "https://quadrate.lk",
   outDir: './dist',
   image: {
     domains: ["ik.imagekit.io"],
