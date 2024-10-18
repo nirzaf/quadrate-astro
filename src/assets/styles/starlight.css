@@ -20,7 +20,7 @@
 /* Light mode colors. */
 :root[data-theme="light"] {
     --border: hsla(var(--border-blue), .4);
-    --backdrop-color: #f6f6f699;
+    --backdrop-color: #ffffff;
     --sl-color-accent: #07091c;
     --sl-color-accent-high: #010313;
     --sl-color-accent-low: #1e2252;

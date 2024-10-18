@@ -32,16 +32,8 @@ We set the language of the page to English and add classes for scrollbar and scr
     <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/144768548.js"></script>
     <!-- End of HubSpot Embed Code -->
     <script is:inline>
-      // Script to handle dark mode. It will check if the theme is stored in localStorage or if dark theme is preferred by system settings
-      if (
-        localStorage.getItem("hs_theme") === "dark" ||
-        (!("hs_theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
-        document.documentElement.classList.add("dark");
-      } else {
-        document.documentElement.classList.remove("dark");
-      }
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("hs_theme", "light");
     </script>
     <script>
       import "@scripts/lenisSmoothScroll.js";
@@ -49,7 +41,7 @@ We set the language of the page to English and add classes for scrollbar and scr
     <SpeedInsights />
   </head>
   <body
-    class="bg-neutral-200 selection:bg-yellow-400 selection:text-neutral-700 dark:bg-neutral-800"
+    class="bg-white selection:bg-yellow-400 selection:text-neutral-700 dark:bg-neutral-800"
   >
     <!--
     Setting up the main structure of the page.
