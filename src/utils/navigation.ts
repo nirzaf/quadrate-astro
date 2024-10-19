@@ -20,7 +20,7 @@ const footerLinks = [
     links: [
       { name: "About us", url: "/about" },
       { name: "Blog", url: "/blog" },
-      { name: "Careers", url: "#" },
+      { name: "Careers", url: "https://share.hsforms.com/1Lg0rWbYQTLq_scQKBpac2Ap2f36" },
     ],
   },
 ];
@@ -32,7 +32,7 @@ const socialLinks = {
   github: "https://github.com/nirzaf",
   google: "#",
   slack: "#",
-  instagram: "#",
+  instagram: "https://www.instagram.com/quadrate.lk/",
 };
 
 export default {
